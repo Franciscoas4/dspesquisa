@@ -6,7 +6,7 @@ import Chart from 'react-apexcharts';
 import axios from 'axios';
 import { buildBarSeries, getPlatformChartData, getGenderChartData } from './helpers';
 
-type PieChartData = {
+type PieChartData = { // Dados em forma de torta
     labels: string[];
     series: number[];
 }
